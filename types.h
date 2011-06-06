@@ -1,4 +1,4 @@
-/* BASIC STUDENT INFORMATION SYSTEM 1.0
+﻿/* BASIC STUDENT INFORMATION SYSTEM 1.0
  * ================================================================================
  * Pelin Öztürk & Mehmet Akif Tütüncü
  * ================================================================================
@@ -25,13 +25,15 @@ typedef struct
 typedef struct
 {
 	char name[NAMELENGHT];
-	char code[NAMELENGHT];	//create CODE 4! (i.e. CENG112)
+	char code[5];	// we don't have to use macro for this, we are not going to create something like this again =)
 	int  codeNumber;
 } COURSE;
 
 typedef struct
 {
-	char firstname[NAMELENGHT];
-	char lastname[NAMELENGHT];
+	char name[NAMELENGHT];		// Aren't 73 characters enough for first and last name? =)
+	//char firstName[NAMELENGHT];
+	//char lastName[NAMELENGHT];
 	int  studentNumber;
+	// We should add list and/or tree variable here to link grades and absenteeism information about a student to student variable
 } STUDENT;
