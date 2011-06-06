@@ -28,3 +28,5 @@ Application functions
 	show the whole data, a spesific data about a student etc.
 
 As a last point, a log-in system may be added =) like normal user, administrator, special user etc. :P =)
+
+abc
