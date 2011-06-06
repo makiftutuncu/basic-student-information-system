@@ -1,0 +1,30 @@
+TO DO LIST
+
+- finishing neccesary (at least the basic ones) data structures
+- deciding what features should the application have (e.g. options in main menu)
+- adding these features one by one first to menu then writing the neccesary codes (functions, may be seperate header files for each operation)
+- of course while doing all these, we should test the application at each step to see what's going on
+
+SOME NOTES ABOUT THE PROJECT
+
+Data
+	For each student
+		exam grades
+			may be kept with linked list (so that there won't be any predefined size, when you want to add a new one, you just create a variable and add to the list)
+		absenteeism information
+			for each course, how many hours the student was absent may be kept
+		course information
+			what courses is the student taking, their credit information, the schedule etc.
+
+Data structures and type definitions (we can add each student to an avl tree due to an aspect, like name or number, so that searching will be fast)
+	student (we can create sub-types for each type, like for keeping grade info, a type having 2 variables for name and grade)
+		grade
+		course
+		absenteeism
+
+Application functions
+	file save/read so the application will be useful, you can keep the data you used in a file and re-use them (of course to do this, we should save the data in a format so that while reading we can use the same format and get the data into the application again, like the phonebook example in the last data structures homework)
+	add/remove/search/edit student etc.
+	show the whole data, a spesific data about a student etc.
+
+As a last point, a log-in system may be added =) like normal user, administrator, special user etc. :P =)
