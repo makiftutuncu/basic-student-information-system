@@ -9,31 +9,37 @@
  */
 
 #include "macros.h"
+#include "ADT.h"			// There are definitions and functions of Abstact Data Type structures
 
 typedef struct
 {
-	char name[NAMELENGHT];
+	char name[32];
 	int  grade;
+	char letter[3];
 } GRADE;
 
 typedef struct
 {
+	char code[8];
 	char name[NAMELENGHT];
-	int  absenteeism;
-} ABSENTEEISM;
-
-typedef struct
-{
-	char name[NAMELENGHT];
-	char code[5];	// we don't have to use macro for this, we are not going to create something like this again =)
-	int  codeNumber;
+	int absenteeism;
+	LINKEDLIST *grades;
 } COURSE;
 
 typedef struct
 {
-	char name[NAMELENGHT];		// Aren't 73 characters enough for first and last name? =)
-	//char firstName[NAMELENGHT];
-	//char lastName[NAMELENGHT];
-	int  studentNumber;
-	// We should add list and/or tree variable here to link grades and absenteeism information about a student to student variable
+	char name[NAMELENGHT];
+	int  number;
+	LINKEDLIST *courses;
 } STUDENT;
+
+/* I've made some changes:
+ * I reduced the limits of some names, since these limits are sufficient as I suppose and "The less memory we use, the better it is." =)
+ * I think now the types make more sense, each student will have a name, a number, and a list of courses.
+ * Each course will have a code, a name, an absenteeism info and a list of grades.
+ * Each grade will have a name, a grade and a letter grade. (Ex: "1st Midterm" as name, "100" as grade and "AA" for letter grade)
+ *
+ * I hope you like the new design. =)
+ *
+ * mAt
+ */
