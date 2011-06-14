@@ -1,0 +1,29 @@
+/* ===== mAt Change log =====
+ *
+ * ===== June 8, 2011 =====
+ * I started to test creating a new student and wrote a function about it.
+ * I used linked list but we can change it back to AVL tree, I just wanted to test creating a student.
+ * I didn't add "ADT.h" to this even though I used it's content, because it's already added in the "types.h" file.
+ * I also didn't move the strings to "macros.h" like others, because this is just a demo.
+ * For now everything I added seems to be working.
+ * I'll be waiting for your thoughts. =)
+ *
+ * In "types.h"
+ *
+ * I've made some changes:
+ * I reduced the limits of some names, since these limits are sufficient as I suppose and "The less memory we use, the better it is." =)
+ * I think now the types make more sense, each student will have a name, a number, and a list of courses.
+ * Each course will have a code, a name, an absenteeism info and a list of grades.
+ * Each grade will have a name, a grade and a letter grade. (Ex: "1st Midterm" as name, "100" as grade and "AA" for letter grade)
+ *
+ * I hope you like the new design. =)
+ *
+ * ===== June 14, 2011 =====
+ * I changed linked list to AVL tree (the structure holding student information).
+ * I added a question to "createAStudent" function asking if user wants to add course information to newly created student.
+ * I moved strings in "createAStudent" function to "macros.h" (with this the student creating operation is almost finished)
+ * I also moved strings in main menu to "macros.h"
+ * I also translated the strings in "macros.h" to Turkish (They should stay commented out, so that there won't be any errors when you try to compile since the string names are the same)
+ * 
+ * The next thing to do is to write course adding functions (and may be add another function to the main menu)
+ */
