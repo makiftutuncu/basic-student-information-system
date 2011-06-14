@@ -1,7 +1,7 @@
 TO DO LIST
 
 - finishing neccesary (at least the basic ones) data structures
-- deciding what features should the application have (e.g. options in main menu)
+- deciding what features should the application have (ex: options in main menu)
 - adding these features one by one first to menu then writing the neccesary codes (functions, may be seperate header files for each operation)
 - of course while doing all these, we should test the application at each step to see what's going on
 
