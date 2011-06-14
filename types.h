@@ -32,14 +32,3 @@ typedef struct
 	int  number;
 	LINKEDLIST *courses;
 } STUDENT;
-
-/* I've made some changes:
- * I reduced the limits of some names, since these limits are sufficient as I suppose and "The less memory we use, the better it is." =)
- * I think now the types make more sense, each student will have a name, a number, and a list of courses.
- * Each course will have a code, a name, an absenteeism info and a list of grades.
- * Each grade will have a name, a grade and a letter grade. (Ex: "1st Midterm" as name, "100" as grade and "AA" for letter grade)
- *
- * I hope you like the new design. =)
- *
- * mAt
- */
