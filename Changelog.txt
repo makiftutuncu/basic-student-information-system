@@ -26,4 +26,14 @@
  * I also translated the strings in "macros.h" to Turkish (They should stay commented out, so that there won't be any errors when you try to compile since the string names are the same)
  * 
  * The next thing to do is to write course adding functions (and may be add another function to the main menu)
+ *
+ * ===== June 17/18, 2011 =====
+ * I finished the function adding course to a student and added it to main file.
+ * Student creation is finished! We now can go on with the second option in the main menu (may be a print function) =)
+ *
+ * In "types.h"
+ *
+ * I deleted GRADE type (for now) and put grade information into COURSE type as a simple string (for just one grade)
+ * I also increased the limits of name and grade strings in COURSE type (I decided it while testing)
+ * 
  */

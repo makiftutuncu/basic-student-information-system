@@ -13,17 +13,10 @@
 
 typedef struct
 {
-	char name[32];
-	int  grade;
-	char letter[3];
-} GRADE;
-
-typedef struct
-{
-	char code[8];
 	char name[NAMELENGHT];
+	char code[16];
+	char grade[4];
 	int absenteeism;
-	LINKEDLIST *grades;
 } COURSE;
 
 typedef struct
