@@ -20,9 +20,11 @@
 #define LANGUAGE_TITLE_MAINMENU                 "MAIN MENU"
 #define LANGUAGE_TITLE_RETURNTOMAINMENU         "RETURNING TO THE MAIN MENU..."
 #define LANGUAGE_TITLE_CREATEASTUDENT			"CREATE A STUDENT"
+#define LANGUAGE_TITLE_PRINTALLSTUDENTSTOSCREEN	"PRINT ALL STUDENTS TO SCREEN"
 
 #define LANGUAGE_MAINMENU_OPTION1               "Create a student"
-#define LANGUAGE_MAINMENU_OPTION2               "Exit"
+#define LANGUAGE_MAINMENU_OPTION2               "Print all students to screen"
+#define LANGUAGE_MAINMENU_OPTION3               "Exit"
 #define LANGUAGE_MAINMENU_CHOICE                "Your choice"
 
 #define LANGUAGE_INPUTERROR 		            "Please select one of the options available to you"
@@ -45,15 +47,19 @@
 #define LANGUAGE_ADDCOURSETOSTUDENT_RESULT1		"New course"
 #define LANGUAGE_ADDCOURSETOSTUDENT_RESULT2		"has been created and added to course list of the student"
 
+#define LANGUAGE_PRINTALLSTUDENTSTOSCREEN_ERROR	"There is no student in the AVL tree"
+
 // ===== Turkish Language =====
 /*
 #define LANGUAGE_TITLE_MAINMENUBSIS             "TEMEL OGRENCI BILGI SISTEMI"
 #define LANGUAGE_TITLE_MAINMENU                 "ANA MENU"
 #define LANGUAGE_TITLE_RETURNTOMAINMENU         "ANA MENUYE DONULUYOR..."
 #define LANGUAGE_TITLE_CREATEASTUDENT			"OGRENCI OLUSTUR"
+#define LANGUAGE_TITLE_PRINTALLSTUDENTSTOSCREEN	"TUM OGRENCILERI EKRANA YAZ"
 
 #define LANGUAGE_MAINMENU_OPTION1               "Ogrenci olustur"
-#define LANGUAGE_MAINMENU_OPTION2               "Cikis"
+#define LANGUAGE_MAINMENU_OPTION2               "Tum ogrencileri ekrana yazdir"
+#define LANGUAGE_MAINMENU_OPTION3               "Cikis"
 #define LANGUAGE_MAINMENU_CHOICE                "Seciminiz"
 
 #define LANGUAGE_INPUTERROR 		            "Lütfen size sunulan seceneklerden birini seciniz"
@@ -75,4 +81,6 @@
 #define LANGUAGE_ADDCOURSETOSTUDENT_ABSENTEEISM	"Yeni dersin devamsizligini giriniz"
 #define LANGUAGE_ADDCOURSETOSTUDENT_RESULT1		"Yeni ders"
 #define LANGUAGE_ADDCOURSETOSTUDENT_RESULT2		"olusturuldu ve ogrencinin ders listesine eklendi"
+
+#define LANGUAGE_PRINTALLSTUDENTSTOSCREEN_ERROR	"AVL agacinda hic ogrenci yok"
 */
