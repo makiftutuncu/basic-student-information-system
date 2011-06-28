@@ -30,3 +30,5 @@ Application functions
 As a last point, a log-in system may be added =) like normal user, administrator, special user etc. :P =)
 
 Vim'in yaptırdıkları. =D
+
+ders kredileri, sınavlar vs.
