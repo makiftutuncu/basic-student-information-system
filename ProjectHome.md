@@ -1,0 +1,1 @@
+This project, provides freshman/sophomore/junior/senior students with ease about their courses, exam grades and absenteeism rights.
